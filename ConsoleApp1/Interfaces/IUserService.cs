@@ -10,5 +10,4 @@ public interface IUserService
     IServiceResult AddUsertoList(IUserInfo userInfo);
     IServiceResult GetUserToList();
     IServiceResult DeleteUserByEmail(string email);
-
 }
